@@ -1,0 +1,65 @@
+.image-background {
+    position: relative;
+      /* kalau tidak muncul bisa download gambar polines-bg.jpg melalui whatsapp lalu menggunakan ("polines-bg.jpg") 
+          background-image: url("polines-bg.jpg"); */
+    background-image: url("https://blog-edutore-partner.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2022/06/14052251/polines.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    filter: blur(4px);
+  }
+  
+  .sign-in-form {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }-
+  .card {
+    background: #fff;  
+  }
+  
+  .row {
+    justify-content: center;
+  }
+  .btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.btn-google {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+  color: white !important;
+  background-color: #ea4335;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn-facebook {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white !important;
+  background-color: #3b5998;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  /* background-color: #f8f9fa; */
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
